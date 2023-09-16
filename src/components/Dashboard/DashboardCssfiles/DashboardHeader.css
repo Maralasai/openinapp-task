@@ -1,0 +1,64 @@
+.dashboard-header {
+  height: 10%;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  color: black;
+}
+#inputBox{
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+
+}
+.inputBoxClass{
+  background-color: #fff;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.dashboard-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1rem;
+}
+.dashboard-menu {
+  display: flex;
+  align-items: center;
+}
+.dashboard-menu > h1 {
+  display: flex;
+  align-items: center;
+  color: black;
+  padding-left: 1rem;
+}
+.logout-div {
+  flex-direction: 'column';
+}
+/* --------------------- */
+@media screen and (max-width: 850px), screen and (max-height: 700px) {
+  .dashboard-header {
+    padding-bottom: 0.3rem;
+    width: 100%;
+  }
+  .dashboard-title {
+    /* font-size: 0.6rem; */
+    width: 138px;
+    line-height: 0.7rem;
+  }
+  .dashboard-menu > h1 > svg {
+    padding-left: 0.75rem;
+    size: 2rem;
+  }
+  .dashboard-menu img {
+    width: 6rem;
+  }
+  #inputBox{
+    max-width: 120px;
+  }
+}

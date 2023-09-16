@@ -1,0 +1,371 @@
+.main-dashboard-div {
+  display: flex;
+  padding: 10px;
+  /* height: 100%; */
+  height: 100vh;
+  width: 100%;
+  /* border: 2px solid pink; */
+  justify-content: space-evenly;
+}
+
+.sidebar {
+  background: linear-gradient(180deg, #4285F4 0%, #3C83F9 100%);
+  color: white;
+  height: 100%;
+  width: 20%;
+  border-radius: 20px;
+  padding: 40px;
+  /* border: 2px solid chartreuse; */
+}
+.sidebar-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  padding-bottom: 1rem;
+}
+.sidebar-menu1 {
+height: 70%;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.sidebar-menu1 > h1 {
+  display: flex;
+  align-items: center;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  color: #ffffff;
+
+  padding-top: 1rem;
+}
+
+.sidebar-menu1 > h1 > svg {
+  margin-right: 0.5rem;
+}
+.sidebar-menu2 {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.sidebar-menu2 > h1 {
+  padding-bottom: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.5rem;
+  line-height: 0.25rem;
+  color: #ffffff;
+}
+
+/* --------------------dashboard css-------------------- */
+
+.dashboard-page {
+  width: 75%;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+
+/* ----------------------------------- */
+
+.graph {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #ffffff;
+
+  height: 40%;
+  padding-top: 10px;
+}
+
+.graph-headings {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.graph-headings-left {
+  display: flex;
+  flex-direction: column;
+}
+.graph-headings-left h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size:14px;
+  line-height: 1rem;
+  color: #000000;
+}
+.graph-headings-left h2 {
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.75rem;
+  color: #858585;
+}
+.chart-vars-divs {
+  display: flex;
+  align-items: center;
+}
+.chart-vars {
+  display: flex;
+  margin: 0 0.5rem 0.5rem;
+  align-items: center;
+}
+.chart-vars h1 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size:12px;
+  line-height: 0.75rem;
+  color: #000000;
+}
+.circle-mention {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  margin-right: 0.25rem;
+}
+.chart {
+  height: 80%;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+/* ----------------- */
+
+/* --------------------third section ----------------------- */
+.third-section {
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 0 0 0;
+  /* border: 2px solid green; */
+}
+.top-products-section {
+  border-radius: 20px;
+  width: 48%;
+  background-color: #ffffff;
+  padding: 1rem;
+}
+.top-products-section-headings {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.top-products-section-headings > h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.top-products-section-headings > h4 {
+  display: flex;
+  color: #858585;
+  align-items: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #858585;
+}
+.x-box {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+.piechart-main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.piechart {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  height: 100%;
+}
+.piechart-details {
+  width: 50%;
+  /* border: 2px solid green; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.piechart-details-divs {
+  display: flex;
+  flex-direction: column;
+  margin: 0.35rem 0 0.35rem 0;
+}
+.piechart-details-divs-head {
+  display: flex;
+  align-items: center;
+}
+.piechart-details-divs-head h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 0.95rem;
+  color: #000000;
+}
+.circle {
+  margin-right: 10px;
+}
+.piechart-details-divs-base {
+  padding-left: 20px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #858585;
+}
+.todays-schedule-section {
+  border-radius: 20px;
+  width: 48%;
+  background-color: #ffffff;
+  padding: 20px;
+}
+h1{
+  font-size: 20px;
+  font-family: 'Montserrat';
+  user-select: none;
+  cursor: pointer;
+}
+h3{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Montserrat';
+  user-select: none;
+  cursor: pointer;
+}
+h4{
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Montserrat';
+  user-select: none;
+  cursor: pointer;
+}
+
+/* -------------------------------- */
+
+@media screen and (max-width: 850px) {
+  .main-dashboard-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  /* sidebar */
+  .sidebar {
+    padding: 20px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sidebar-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .sidebar-menu1{
+    margin-top: -10%;
+    flex-wrap: wrap;
+    display: none;
+    justify-content: space-evenly;
+  }
+  .sidebar-menu2{
+    display: none;
+    text-align: right;
+    justify-content: space-evenly;
+    /* margin-bottom: -120px; */
+  }
+  .sidebar-menu1 > h1 {
+    font-size: 0.5rem;
+  }
+  .sidebar-menu2 > h1 {
+    font-size: 0.3;
+  }
+  /* header */
+  .dashboard-page {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: 100%;
+  }
+  .top-products-section {
+    padding: 0.5rem;
+  }
+  .top-products-section-headings > h1 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .top-products-section-headings > h4 {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .x-box {
+    height: 3rem;
+    width: 3rem;
+  }
+  .piechart-details-divs {
+    margin: 0.2rem 0 0.2rem 0;
+  }
+  .piechart-details-divs-head h1 {
+    font-size: 0.3;
+    line-height: 0.75;
+  }
+  .circle {
+    margin-right: 5px;
+  }
+  .piechart-details-divs-base {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .todays-schedule-section {
+    padding: 10px;
+  }
+  .third-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .top-products-section{
+    width: 100%;
+  }
+  .todays-schedule-section{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
